@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de registro</h1>
+    </header>
+
+    <section>
+        <form action="">  <!--input de tipo texto para nombre y apellido-->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder=" Ingrese su nombre">
+            
+            <!--Saltos de linea-->
+            <br>
+            <br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="nombre" placeholder=" Ingrese su apellido">
+
+            <br>
+            <br>
+            <label for="Modalidad">Modalidad de cursada:</label>
+            <!--Boton circular de seleccion-->
+            <input type="radio" name="modulo" id="on-demand">
+            <label for="on-demand">On-demand</label>
+            <input type="radio" name="modulo" id="vivo">
+            <label for="vivo">En vivo</label>
+
+            <br>
+            <br>
+            
+            <!--Para email-->
+            <label for="email">Correo:</label>
+            <input type="email" name="email" id="email">
+
+            <br>
+            <br>
+
+            <!--Caja de seleccion-->
+            <input type="checkbox" name="informacion" id="informacion" required>
+            <label for="informacion">Deseo recibir informacion sobre nuevos posteos en la plataforma de Nucba</label>
+            <br>
+            <br>
+            <input type="checkbox" name="declaracion" id="declaracion" required>
+            <label for="declaracion">Declaro que leí los términos y condiciones y estoy listo para convertirme en Desarrollador Web Full Stack</label>
+            
+            <br>
+            <br>
+
+            <!--Boton de envio-->
+            <input type="submit" value="Enviar">
+
+        </form>
+    </section>
+
+</body>
+</html>
